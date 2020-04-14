@@ -7,8 +7,9 @@ Argo Tunnel Remote Access Tool
 ### Client (golang wrapper for cloudflared or just import the sources of cloudflared and add module)
 - Gets config from server via HTTPS (token or some other UUID for config mapping on server database)
 - Config:
-  -yaml/JSON of (many) port:service:proto:targethost:comment
-  -client FriendlyName
+  - yaml/JSON of (many) port:service:proto:targethost:comment
+  - client FriendlyName
+  - client UUID
 - Spawns multiple `cloudflared tunnel` with config from above
 - Puts status json to server with current list of tunnels and urls.
 
