@@ -1,6 +1,8 @@
 # ArgoRAT
 Argo Tunnel Remote Access Tool
 
+**NOTE:** For Security/Firewall/Systems Engineers: You can block this entirely from your network by blocking outbound TCP/7844. That is the port used by cloudflared to connecto to the Argo network.
+
 ## Concept
 - Work-in-Porgress
 
